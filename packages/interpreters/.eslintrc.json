@@ -1,0 +1,59 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "default-case": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "import/no-unresolved": "off",
+    "max-classes-per-file": "off",
+    "no-use-before-define": "off",
+    "no-template-curly-in-string": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "class-methods-use-this": "warn",
+    "prefer-destructuring": "warn",
+    "indent": "off",
+    "no-plusplus": "warn",
+    "max-len": ["error", { "code": 300 }],
+    "no-continue": "warn",
+    "newline-before-return": "error",
+    "newline-per-chained-call": ["off"],
+    "operator-linebreak": ["error", "after"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "warn",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "no-dupe-class-members": "off",
+    "@typescript-eslint/no-dupe-class-members": "error",
+    "implicit-arrow-linebreak": "off",
+    "array-callback-return": "off",
+    "lines-between-class-members": "off",
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "error",
+    "no-underscore-dangle": "off",
+    "no-bitwise": "off",
+    "no-undef": "off",
+    "function-paren-newline": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "warn",
+    "dot-notation": "warn"
+  }
+}
