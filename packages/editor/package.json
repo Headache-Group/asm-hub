@@ -1,12 +1,12 @@
 {
   "name": "@asm-hub/editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Monaco-based editor for the app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "huydo862003@gmail.com",
+  "license": "Apache-2.0"
 }
